@@ -42,7 +42,7 @@ private:
     
     // バックアップ用の強度値
     float dirLightIntensityBackup_ = 0.0f;
-    float spotLightIntensityBackup_ = 4.5f;
+    float spotLightIntensityBackup_ = 2.8f;
     
     // デバッグ表示フラグ
     bool showDebugWindow_ = true;
@@ -56,6 +56,6 @@ private:
     
     // ホラー演出用
     float flickerTimer_ = 0.0f;
-    float baseIntensity_ = 4.5f;  // 懐中電灯は中心部が明るい
+    float baseIntensity_ = 2.8f;  // ホラーゲーム向けに弱めの懐中電灯
     float lastFlickerTime_ = 0.0f;
 };
